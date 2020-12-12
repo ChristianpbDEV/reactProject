@@ -39,22 +39,23 @@
     margin: 0; 
     padding: 20px;
     color: hsl(0, 0%, 0%);
-    background-color: hsla(233, 43%, 82%, 0.472);
+    background-color: hsla(234, 17%, 78%, 0.472);
     border-radius: 5px;
 }
 
 .price-box button {
-    background-image: linear-gradient( to right, hsl(236, 70%, 59%), hsl(237, 82%, 69%));
-    border: none;
+    background-color: transparent;
     border-radius: 5px;
-    color: #fff;
+    color: black;
     font-family: monospace, sans-serif;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     padding: 15px;
     margin-top: 10px;
     width: 100%;
     text-transform: uppercase;
     transition: 0.5s;
+    border: black 1px solid;
+    text-align: center;
 }
 
 .price-box button:hover {

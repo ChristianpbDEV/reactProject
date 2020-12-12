@@ -29,6 +29,7 @@
 .card-body {
     background-color: rgba(243, 234, 234, 0.623);    
 }
+
 .card-body button {
     background-color: transparent;
     border-radius: 5px;
@@ -46,9 +47,7 @@
 
 .card-body button:hover {
     color: #fff;
-    
     border: black 1px solid;
-    
     background-image: linear-gradient( to right, hsla(238, 72%, 74%, 0.808),  hsl(236, 70%, 59%));     
 }
 

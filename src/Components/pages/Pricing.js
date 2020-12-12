@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Button } from 'reactstrap';
 import { Link } from 'react-router-dom';
 import './Pricing.css';
 
@@ -19,7 +19,9 @@ function Pricing() {
                                 <li>Beard Trim $10</li>
                                 <li>Hot Lather Shave $35</li>
                             </ul>
-                            <button>Book Appointment</button>
+                            <Button >
+                                Book Appointment
+                            </Button>
                         </div>
                     </div>
                 </div>

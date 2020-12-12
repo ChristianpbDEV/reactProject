@@ -1,11 +1,12 @@
 import React from 'react';
 import './Footer.css';
+
 import { Link } from 'react-router-dom';
 import {
   FaFacebook,
   FaInstagram
 } from 'react-icons/fa';
-import { MdFingerprint } from 'react-icons/md';
+
 
 function Footer() {
   return (
@@ -47,10 +48,12 @@ function Footer() {
       <section className='social-media'>
         <div className='social-media-wrap'>
           <div className='footer-logo'>
-            <Link to='/' className='social-logo'>
-              <i className="fa fa-scissors" />
-              PROCUTS Barbershop
+            <Link to='/home' className="navbar-logo">
+              <i className="fa fa-scissors">  
+                PROCUTS Barbershop 
+              </i>
             </Link>
+            <p>4300</p>
           </div>
           <div className='social-icons'>
             <Link

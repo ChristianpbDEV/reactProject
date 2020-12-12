@@ -1,7 +1,6 @@
 import React, { useState, useEffect }  from 'react'
 import { Link } from 'react-router-dom';
 import { FaBars, FaTimes, FiScissors } from 'react-icons/fa';
-
 import './Navbar.css';
 import { IconContext } from 'react-icons/lib'
 
@@ -32,7 +31,7 @@ function Navbar() {
         <IconContext.Provider value={{ color: '#fff'}}>
             <div className="navbar sticky-top">
                 <div className="navbar-container">
-                    <Link to='/' className="navbar-logo" onClick={closeMobileMenu}>
+                    <Link to='/home' className="navbar-logo" onClick={closeMobileMenu}>
                         <i className="fa fa-scissors">  PROCUTS Barbershop </i>
                     </Link>
                     <div className="menu-icon" onClick={handleClick}>
@@ -40,7 +39,7 @@ function Navbar() {
                     </div>
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                         <li className='nav-item'>
-                            <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+                            <Link to='/home' className='nav-links' onClick={closeMobileMenu}>
                                 Home
                             </Link>
                         </li> 
